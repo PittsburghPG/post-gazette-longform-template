@@ -1,0 +1,107 @@
+<!doctype html>
+
+<!-- HEADER SECTION -->
+
+<html>
+
+<head>
+	<title>Pittsburgh Post-Gazette: <!-- INSERT TITLE HERE --></title>
+
+	<!-- GOOGLE ANALYTICS -->
+	<script type="text/javascript">
+	
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-15716261-1']);
+	_gaq.push(['_setDomainName', 'post-gazette.com']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	
+	</script>
+	<!-- end Google Analytics -->
+
+	<!--News Beat script -->
+	<script type='text/javascript'>
+		var _sf_async_config={};
+		/** CONFIGURATION START **/
+		_sf_async_config.uid = 34530;
+		_sf_async_config.domain = 'post-gazette.com';
+		_sf_async_config.sections = 'News';  //CHANGE THIS
+		_sf_async_config.authors = 'Lillian Thomas';    //CHANGE THIS
+		/** CONFIGURATION END **/
+		(function(){
+		  function loadChartbeat() {
+			window._sf_endpt=(new Date()).getTime();
+			var e = document.createElement('script');
+			e.setAttribute('language', 'javascript');
+			e.setAttribute('type', 'text/javascript');
+			e.setAttribute('src',
+			   (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+			   'js/chartbeat.js');
+			document.body.appendChild(e);
+		  }
+		  var oldonload = window.onload;
+		  window.onload = (typeof window.onload != 'function') ?
+			 loadChartbeat : function() { oldonload(); loadChartbeat(); };
+		})();
+	</script>
+	<!--News Beat script ends-->
+	
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="description" content="A Pittsburgh Post-Gazette/Milwaukee Journal Sentinel collaboration examines why poor neighborhoods have even poorer health." />
+	<link rel="icon" type="image/png" href="http://example.com/myicon.png">
+
+	<meta property="og:type"            content="article" /> 
+	<meta property="og:url"             content="http://newsinteractive.post-gazette.com/longform/stories/poorhealth" /> 
+	<meta property="og:title"           content="Pittsburgh Post-Gazette: Poor Health" /> 
+	<meta property="og:description"     content="A Pittsburgh Post-Gazette/Milwaukee Journal Sentinel collaboration examines why poor neighborhoods have even poorer health." /> 
+	<meta property="og:image"           content="img/HEALTHCARE_CITY,-NWS,-PORTE.10.jpg" /> 
+
+	<meta name="twitter:card" 			content="summary">
+	<meta name="twitter:site" 			content="@pittsburghpg">
+	<meta name="twitter:creator"		content="@pittsburghpg">
+	<meta name="twitter:title"			content="Poor Health">
+	<meta name="twitter:description"	content="A Pittsburgh Post-Gazette/Milwaukee Journal Sentinel collaboration examines why poor neighborhoods have even poorer health.">
+	<meta name="twitter:image" 			content="img/HEALTHCARE_CITY,-NWS,-PORTE.10.jpg">
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="/longform/js/waypoints.min.js"></script>
+	<script src="/longform/js/jquery-scrollTo.js"></script>
+	<script src="/longform/js/scripts.js"></script>
+	
+	<link href='/longform/css/styles.css' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,900,300' rel='stylesheet' type='text/css'>
+	
+	<style type="text/css">
+		@media all and (max-width: 1000px) {
+			#interactive { display:none; }
+		}
+	</style>
+	
+</head>
+
+<body>
+	
+	<!-- Header bar that floats above all -->
+	<div class="header">
+		<div class="logo"></div>
+		<h1>Poor Health</h1>
+		<div class="social">
+			<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://newsinteractive.post-gazette.com/longform/stories/poorhealth" style="border:0"><i class="fa fa-facebook"></i></a>
+			<a target="_blank" href="https://twitter.com/intent/tweet?original_referer=http://newsinteractive.post-gazette.com/longform/stories/poorhealth&text=How a nationwide hospital shutdown has left poor neighborhoods in poorer health. (via @PittsburghPG):&:tw_p=tweetbutton&url=http://newsinteractive.post-gazette.com/longform/stories/poorhealth"><i class="fa fa-twitter"></i></a>
+		</div>
+	</div>
+
+
+	
+	<!-- Opening title slide/video -->
+	<div class="titleCard chapter first" style="background-image:url('img/OPENING_IMAGE_HEALTHCARE_HILL,-NWS,-PORTE.jpg');" >
+			<div class="title" id="maintitle" style="display:none; right:15px;">Poor Health: Poverty and scarce resources in U.S. cities</div> 
+	</div>
+
+<!-- END HEADER SECTION -->
