@@ -6,6 +6,7 @@ This responsive template makes assembling immersive longform stories a breeze. R
 
 1. Download .zip file from this Github page. 
 2. Load the images you'll be using into the `/img` folder. (Make sure they're not too big! I usually export full-screen images at a max of 2000px wide.) 
+3. Prepare the text of the story by removing "smart commas" and adding `<p>` tags around each line. (I'd cheat and copy-and-paste your text into http://www.textfixer.com/html/convert-text-html.php.)
 3. Fill out `header.html` from `/html`
   * Copy and paste into `index.html`.
 4. Fill out `section.html`.
