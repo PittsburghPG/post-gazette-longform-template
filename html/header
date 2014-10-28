@@ -63,14 +63,14 @@
 	<meta property="og:url"             content="<!-- INSERT THIS STORY'S FULL URL HERE (ex: http://newsinteractive.post-gazette.com/longform/stories/poorhealth) -->" /> 
 	<meta property="og:title"           content="Pittsburgh Post-Gazette: <!-- INSERT TITLE OF PROJECT -->" /> 
 	<meta property="og:description"     content="<!-- INSERT DESCRIPTION FOR FACEBOOK (CAN BE SAME AS WEB LEAD)-->" /> 
-	<meta property="og:image"           content="<!-- INSERT URL FOR FACEBOOK THUMBNAIL PICTURE -->" /> 
+	<meta property="og:image"           content="img/<!-- INSERT URL FOR FACEBOOK THUMBNAIL PICTURE -->" /> 
 
 	<meta name="twitter:card" 			content="summary">
 	<meta name="twitter:site" 			content="@pittsburghpg">
 	<meta name="twitter:creator"		content="@pittsburghpg">
 	<meta name="twitter:title"			content="<!-- INSERT TITLE OF PROJECT -->">
 	<meta name="twitter:description"	content="<!-- INSERT PROJECT TWITTER DESCRIPTION -->">
-	<meta name="twitter:image" 			content="<!-- INSERT URL OF PROJECT TWITTER THUMBNAIL -->">
+	<meta name="twitter:image" 			content="img/<!-- INSERT URL OF PROJECT TWITTER THUMBNAIL -->">
 <!--END CHANGES **********************************************-->
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
