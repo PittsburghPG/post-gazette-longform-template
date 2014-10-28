@@ -33,4 +33,6 @@ This responsive template makes assembling immersive longform stories a breeze. R
 		    </div>
 	    </div>
 6. Fill out `credits.html`.
-	a. Copy and paste into `index.html`. 
+	* Copy and paste into `index.html`. 
+7. Log into the Post-Gazette's `newsinteractive` server and upload the project folder to `longform/stories/`.
+8. Verify the website looks puuuurty.
